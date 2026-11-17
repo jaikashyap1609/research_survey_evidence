@@ -1,0 +1,280 @@
+TY  - JOUR
+ID  - mirkovic2004taxonomy
+AU  - J. Mirkovic and P. Reiher
+TI  - A taxonomy of DDoS attack and DDoS defense mechanisms
+JO  - ACM SIGCOMM Computer Communication Review
+PY  - 2004
+VL  - 34
+IS  - 2
+SP  - 39
+EP  - 53
+DO  - 10.1145/997150.997156
+UR  - https://doi.org/10.1145/997150.997156
+KW  - Foundational Background
+N1  - Main finding: Categorized DDoS attacks by degree of automation, exploited vulnerability, source address validity, and attack rate dynamics | Limitation: Pre-dates modern cloud CDNs, IoT botnets, and large-scale UDP amplification
+ER  -
+
+TY  - JOUR
+ID  - zargar2013survey
+AU  - S. T. Zargar, J. Joshi, and D. Tipper
+TI  - A survey of defense mechanisms against distributed denial of service (DDoS) flooding attacks
+JO  - IEEE Communications Surveys & Tutorials
+PY  - 2013
+VL  - 15
+IS  - 4
+SP  - 2046
+EP  - 2069
+DO  - 10.1109/SURV.2013.031413.00127
+UR  - https://doi.org/10.1109/SURV.2013.031413.00127
+KW  - Foundational Background
+N1  - Main finding: Distributed defenses coordinated across network points outperform isolated victim-end filtering | Limitation: Limited coverage of modern commercial cloud scrubbing and serverless edge mitigation
+ER  -
+
+TY  - JOUR
+ID  - osanaiye2016cloud
+AU  - O. Osanaiye, K.-K. R. Choo, and M. Dlodlo
+TI  - Distributed denial of service (DDoS) resilience in cloud: Review and conceptual cloud DDoS mitigation framework
+JO  - Journal of Network and Computer Applications
+PY  - 2016
+VL  - 67
+SP  - 147
+EP  - 165
+DO  - 10.1016/j.jnca.2016.01.001
+UR  - https://doi.org/10.1016/j.jnca.2016.01.001
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Cloud elasticity helps absorb bursts, but requires proactive anomaly detection to prevent economic denial of sustainability | Limitation: Conceptual framework without live small-operator cost benchmarking
+ER  -
+
+TY  - CONF
+ID  - antonakakis2017mirai
+AU  - M. Antonakakis et al.
+TI  - Understanding the Mirai botnet
+T2  - Proceedings of the 26th USENIX Security Symposium
+PY  - 2017
+SP  - 1093
+EP  - 1110
+UR  - https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis
+KW  - Attack Economics and Application Exposure
+N1  - Main finding: Compromised consumer IoT devices peaked at ~600,000 bots and launched high-volume attacks against diverse targets | Limitation: Focuses on botnet anatomy rather than small-website mitigation economics
+ER  -
+
+TY  - CONF
+ID  - sharafaldin2019cicddos
+AU  - I. Sharafaldin, A. H. Lashkari, S. Hakak, and A. A. Ghorbani
+TI  - Developing realistic distributed denial of service (DDoS) attack dataset and taxonomy
+T2  - Proceedings of the IEEE 53rd International Carnahan Conference on Security Technology
+PY  - 2019
+SP  - 1
+EP  - 8
+DO  - 10.1109/CCST.2019.8888419
+UR  - https://doi.org/10.1109/CCST.2019.8888419
+KW  - Attack Economics and Application Exposure
+N1  - Main finding: Created a widely adopted benchmark dataset and flow feature set for modern reflective DDoS detection | Limitation: Controlled lab traffic does not capture production SME web workloads or edge filtering constraints
+ER  -
+
+TY  - JOUR
+ID  - ismail2021amplification
+AU  - S. Ismail, H. R. Hassen, M. Just, and H. Zantout
+TI  - A review of amplification-based distributed denial of service attacks and their mitigation
+JO  - Computers & Security
+PY  - 2021
+VL  - 109
+SP  - 102380
+DO  - 10.1016/j.cose.2021.102380
+UR  - https://doi.org/10.1016/j.cose.2021.102380
+KW  - Attack Economics and Application Exposure
+N1  - Main finding: Readily available DDoS-for-hire tools and open reflectors enable low-resource attackers to saturate victim links | Limitation: Primary mitigations rely on ISP ingress filtering (BCP38) outside website owners' control
+ER  -
+
+TY  - JOUR
+ID  - app_layer_survey2020
+AU  - T. V. Phan et al. (Verify exact author list against publisher record)
+TI  - A survey and meta-analysis of application-layer distributed denial-of-service attack
+JO  - International Journal of Communication Systems
+PY  - 2020
+VL  - 33
+IS  - 18
+SP  - e4603
+DO  - 10.1002/dac.4603
+UR  - https://doi.org/10.1002/dac.4603
+KW  - Attack Economics and Application Exposure
+N1  - Main finding: Application-layer attacks exhaust server CPU/memory and database resources without triggering volumetric alarms | Limitation: Studies prioritize classifier accuracy over operational cost and outage duration on small web stacks
+ER  -
+
+TY  - JOUR
+ID  - http_ddos_review2019
+AU  - Author Verification Required (See Wiley/Hindawi DOI 10.1155/2019/1283472)
+TI  - Review of recent detection methods for HTTP DDoS attack
+JO  - Security and Communication Networks
+PY  - 2019
+VL  - 2019
+SP  - 1283472
+DO  - 10.1155/2019/1283472
+UR  - https://doi.org/10.1155/2019/1283472
+KW  - Attack Economics and Application Exposure
+N1  - Main finding: Behavioral and session-based metrics improve HTTP flood separation but increase processing overhead | Limitation: Lacks evaluation on low-cost shared hosting or resource-constrained CMS deployments
+ER  -
+
+TY  - JOUR
+ID  - bhardwaj2021cloud
+AU  - A. Bhardwaj, V. Mangat, R. Vig, S. Halder, and M. Conti
+TI  - Distributed denial of service attacks in cloud: State-of-the-art of scientific and commercial solutions
+JO  - Computer Science Review
+PY  - 2021
+VL  - 39
+SP  - 100332
+DO  - 10.1016/j.cosrev.2020.100332
+UR  - https://doi.org/10.1016/j.cosrev.2020.100332
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Commercial cloud/CDN providers offer strong volumetric absorption, whereas academic proposals focus on detection algorithms | Limitation: Does not quantify total cost of ownership or configuration barriers for small independent operators
+ER  -
+
+TY  - JOUR
+ID  - kaur2021sdn
+AU  - S. Kaur, K. Kumar, N. Aggarwal, and G. Singh
+TI  - A comprehensive survey of DDoS defense solutions in SDN: Taxonomy, research challenges, and future directions
+JO  - Computers & Security
+PY  - 2021
+VL  - 110
+SP  - 102423
+DO  - 10.1016/j.cose.2021.102423
+UR  - https://doi.org/10.1016/j.cose.2021.102423
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Programmable SDN control planes enable rapid flow-rule mitigation but introduce controller bottlenecks | Limitation: Most evaluated solutions assume enterprise SDN infrastructure not available to typical website owners
+ER  -
+
+TY  - CONF
+ID  - rizvi2022anycast
+AU  - A. S. M. Rizvi, L. Bertholdo, J. Ceron, and J. Heidemann
+TI  - Anycast agility: Network playbooks to fight DDoS
+T2  - Proceedings of the 31st USENIX Security Symposium
+PY  - 2022
+SP  - 4201
+EP  - 4218
+UR  - https://www.usenix.org/conference/usenixsecurity22/presentation/rizvi
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Dynamic BGP routing playbooks (path prepending, community filtering) redistribute attack traffic across edge sites | Limitation: Requires BGP/anycast control possessed by CDNs and large operators rather than single-origin websites
+ER  -
+
+TY  - JOUR
+ID  - balarezo2022modelling
+AU  - J. F. Balarezo, S. Wang, K. Gomez Chavez, A. Al-Hourani, and S. Kandeepan
+TI  - A survey on DoS/DDoS attacks mathematical modelling for traditional, SDN and virtual networks
+JO  - Engineering Science and Technology, an International Journal
+PY  - 2022
+VL  - 31
+SP  - 101065
+DO  - 10.1016/j.jestch.2021.09.011
+UR  - https://doi.org/10.1016/j.jestch.2021.09.011
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Mathematical models quantify how finite buffer and CPU capacities degrade rapidly under burst arrivals | Limitation: Abstracted analytical models omit real-world operational friction and human response delays
+ER  -
+
+TY  - JOUR
+ID  - li2023comprehensive
+AU  - Q. Li et al.
+TI  - A comprehensive survey on DDoS defense systems: New trends and challenges
+JO  - Computer Networks
+PY  - 2023
+VL  - 233
+SP  - 109895
+DO  - 10.1016/j.comnet.2023.109895
+UR  - https://doi.org/10.1016/j.comnet.2023.109895
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Hybrid cloud-edge and programmable network defenses improve adaptability against multi-vector campaigns | Limitation: Limited reporting of end-to-end service downtime and small-organization affordability
+ER  -
+
+TY  - JOUR
+ID  - hill2024sdn
+AU  - W. Hill et al.
+TI  - DDoS in SDN: A review of open datasets, attack vectors and mitigation strategies
+JO  - Discover Applied Sciences
+PY  - 2024
+VL  - 6
+SP  - 472
+DO  - 10.1007/s42452-024-06172-x
+UR  - https://doi.org/10.1007/s42452-024-06172-x
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Heavy reliance on synthetic/simulated SDN testbeds limits generalizability to production networks | Limitation: Highlights simulation-to-production gap without empirical SME deployment trials
+ER  -
+
+TY  - JOUR
+ID  - arroyabe2024uk_sme
+AU  - M. F. Arroyabe, C. F. A. Arranz, I. F. de Arroyabe, and J. C. F. de Arroyabe
+TI  - Exploring the economic role of cybersecurity in SMEs: A case study of the UK
+JO  - Technology in Society
+PY  - 2024
+VL  - 78
+SP  - 102670
+DO  - 10.1016/j.techsoc.2024.102670
+UR  - https://doi.org/10.1016/j.techsoc.2024.102670
+KW  - Resource and Operational Constraints
+N1  - Main finding: Information asymmetry, low perceived incident probability, and budget constraints drive underinvestment in SMEs | Limitation: Examines general SME cybersecurity spending rather than website-specific DDoS outcomes
+ER  -
+
+TY  - JOUR
+ID  - wainwright2025sdn_sme
+AU  - R. Wainwright, M. Bagheri, A. Salama, and R. Saatchi
+TI  - Software-defined networking security detection strategies and their limitations with a focus on distributed denial-of-service for small to medium-sized enterprises
+JO  - Applied Sciences
+PY  - 2025
+VL  - 15
+IS  - 23
+SP  - 12389
+DO  - 10.3390/app152312389
+UR  - https://doi.org/10.3390/app152312389
+KW  - Infrastructure and Mitigation Capacity
+N1  - Main finding: Academic SDN defenses are largely validated in simulations and remain too complex and costly for live SME environments | Limitation: Identifies lack of matched empirical comparisons between SME and enterprise networks
+ER  -
+
+TY  - JOUR
+ID  - tsiodra2023risk
+AU  - M. Tsiodra, S. Panda, M. Chronopoulos, and E. Panaousis
+TI  - Cyber risk assessment and optimization: A small business case study
+JO  - IEEE Access
+PY  - 2023
+VL  - 11
+SP  - 44467
+EP  - 44481
+DO  - 10.1109/ACCESS.2023.3272670
+UR  - https://doi.org/10.1109/ACCESS.2023.3272670
+KW  - Resource and Operational Constraints
+N1  - Main finding: Small operators face severe trade-offs between core operational expenses and preventive security controls | Limitation: Single-organization case study focused on general risk optimization rather than live DDoS stress testing
+ER  -
+
+TY  - JOUR
+ID  - rombaldo2026sme_review
+AU  - C. Rombaldo Junior, I. Becker, and S. D. Johnson
+TI  - Unaware, unfunded, untrained, and unsupported: A systematic review of cybersecurity in small and medium enterprises
+JO  - Journal of Cybersecurity
+PY  - 2026
+VL  - 12
+IS  - 1
+SP  - tyag030
+DO  - 10.1093/cybsec/tyag030
+UR  - https://doi.org/10.1093/cybsec/tyag030
+KW  - Resource and Operational Constraints
+N1  - Main finding: Low awareness, insufficient funding, lack of technical training, and weak external support systematically hinder SME resilience | Limitation: Broad SME scope without isolated empirical measurements of independent website availability
+ER  -
+
+TY  - ELEC
+ID  - qurium2026kloop
+AU  - Qurium Media Foundation
+TI  - A 50TB hug to Kloop Media: Forensic analysis of the DDoS attack targeting Kloop.kg
+T2  - Qurium Digital Forensics Alert (Sep. 2, 2026)
+PY  - 2026
+UR  - https://www.qurium.org/alerts/a-50tb-hug-to-kloop-media/
+KW  - Case Evidence (Incident Report)
+N1  - Main finding: Independent media can face massive multi-vector attacks; specialist upstream support (Qurium) proved critical to resilience | Limitation: Single-incident forensic report; observed IPs reflect spoofing/reflection rather than confirmed distinct hosts
+ER  -
+
+TY  - ELEC
+ID  - nemo2026eltoque
+AU  - NEMO
+TI  - How elTOQUE withstood its second DDoS attack in less than a year
+T2  - Exiled Media / NEMO Incident Report (2026)
+PY  - 2026
+UR  - https://www.exiled.media/how-eltoque-withstood-its-second-ddos-attack/
+KW  - Case Evidence (Incident Report)
+N1  - Main finding: Sustained application-layer floods repeatedly target independent publishers, requiring hardened caching and external support | Limitation: Operational incident summary rather than peer-reviewed empirical benchmark
+ER  -

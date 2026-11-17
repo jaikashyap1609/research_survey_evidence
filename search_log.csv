@@ -1,0 +1,6 @@
+Search_ID,Repository,Search_String,Date_Searched,Period,Raw_Hits,Included_Count,Notes
+S1,IEEE Xplore,"(""DDoS"" OR ""distributed denial of service"") AND (""small business"" OR SME OR ""independent website"")",2026-11-17,2004-2026,Not logged (narrative review),4,Peer-reviewed papers on SME cyber risk & SDN SME limits
+S2,ACM Digital Library,"(""DDoS mitigation"" OR ""DDoS defence"") AND (cloud OR CDN OR SDN)",2026-11-17,2004-2026,Not logged (narrative review),3,Foundational DDoS taxonomies and architectural defenses
+S3,SpringerLink / Elsevier / Wiley,"(""botnet"" OR amplification OR ""application-layer DDoS"") AND (mitigation OR survey)",2026-11-17,2004-2026,Not logged (narrative review),9,"Cloud, amplification, HTTP DDoS, and SDN defense surveys"
+S4,USENIX / Google Scholar,"(""Mirai"" OR ""anycast"" OR ""CICDDoS2019"") AND DDoS",2026-11-17,2017-2026,Not logged (narrative review),2,"Empirical botnet, anycast playbook, and dataset studies"
+S5,Qurium / NEMO Repositories,"site:qurium.org OR site:exiled.media ""DDoS"" 2026",2026-11-17,2026,2 incident reports,2,"Real-world 2026 independent media case evidence (Kloop.kg, elTOQUE)"
